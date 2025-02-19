@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PermissionsAPI.Domain\PermissionsAPI.Domain.csproj" />
-    <ProjectReference Include="..\PermissionsAPI.Application\PermissionsAPI.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>

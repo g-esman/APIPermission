@@ -1593,19 +1593,6 @@
           }
         }
       },
-      "PermissionsAPI.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "PermissionsAPI.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/PermissionsAPI.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PermissionsAPI.Application.dll": {}
-        }
-      },
       "PermissionsAPI.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -4694,11 +4681,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "PermissionsAPI.Application/1.0.0": {
-      "type": "project",
-      "path": "../PermissionsAPI.Application/PermissionsAPI.Application.csproj",
-      "msbuildProject": "../PermissionsAPI.Application/PermissionsAPI.Application.csproj"
-    },
     "PermissionsAPI.Domain/1.0.0": {
       "type": "project",
       "path": "../PermissionsAPI.Domain/PermissionsAPI.Domain.csproj",
@@ -4709,7 +4691,6 @@
     "net9.0": [
       "Microsoft.EntityFrameworkCore.Design >= 9.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.2",
-      "PermissionsAPI.Application >= 1.0.0",
       "PermissionsAPI.Domain >= 1.0.0"
     ]
   },
@@ -4738,9 +4719,6 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Application\\PermissionsAPI.Application.csproj": {
-              "projectPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Application\\PermissionsAPI.Application.csproj"
-            },
             "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj": {
               "projectPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj"
             }
