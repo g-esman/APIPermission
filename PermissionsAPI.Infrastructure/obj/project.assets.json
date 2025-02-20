@@ -4700,11 +4700,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\PermissionsAPI.Infrastructure.csproj",
+      "projectUniqueName": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\PermissionsAPI.Infrastructure.csproj",
       "projectName": "PermissionsAPI.Infrastructure",
-      "projectPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\PermissionsAPI.Infrastructure.csproj",
+      "projectPath": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\PermissionsAPI.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\sgryn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\obj\\",
+      "outputPath": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sgryn\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4719,8 +4719,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj": {
-              "projectPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj"
+            "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj": {
+              "projectPath": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj"
             }
           }
         }

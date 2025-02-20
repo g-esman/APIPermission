@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Tests\\PermissionsAPI.Tests.csproj": {}
+    "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Tests\\PermissionsAPI.Tests.csproj": {}
   },
   "projects": {
     "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.API\\PermissionsAPI.API.csproj": {
@@ -26,11 +26,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Application\\PermissionsAPI.Application.csproj": {
-                "projectPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Application\\PermissionsAPI.Application.csproj"
+              "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Application\\PermissionsAPI.Application.csproj": {
+                "projectPath": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Application\\PermissionsAPI.Application.csproj"
               },
-              "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\PermissionsAPI.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\PermissionsAPI.Infrastructure.csproj"
+              "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\PermissionsAPI.Infrastructure.csproj": {
+                "projectPath": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\PermissionsAPI.Infrastructure.csproj"
               }
             }
           }
@@ -51,6 +51,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.2, )"
@@ -79,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Application\\PermissionsAPI.Application.csproj": {
+    "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Application\\PermissionsAPI.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Application\\PermissionsAPI.Application.csproj",
+        "projectUniqueName": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Application\\PermissionsAPI.Application.csproj",
         "projectName": "PermissionsAPI.Application",
-        "projectPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Application\\PermissionsAPI.Application.csproj",
+        "projectPath": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Application\\PermissionsAPI.Application.csproj",
         "packagesPath": "C:\\Users\\sgryn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Application\\obj\\",
+        "outputPath": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sgryn\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -101,8 +109,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj"
+              "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj": {
+                "projectPath": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj"
+              },
+              "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\PermissionsAPI.Infrastructure.csproj": {
+                "projectPath": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\PermissionsAPI.Infrastructure.csproj"
               }
             }
           }
@@ -122,6 +133,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -142,14 +159,14 @@
         }
       }
     },
-    "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj": {
+    "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj",
         "projectName": "PermissionsAPI.Domain",
-        "projectPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj",
+        "projectPath": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\sgryn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\obj\\",
+        "outputPath": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sgryn\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -201,14 +218,14 @@
         }
       }
     },
-    "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\PermissionsAPI.Infrastructure.csproj": {
+    "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\PermissionsAPI.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\PermissionsAPI.Infrastructure.csproj",
+        "projectUniqueName": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\PermissionsAPI.Infrastructure.csproj",
         "projectName": "PermissionsAPI.Infrastructure",
-        "projectPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\PermissionsAPI.Infrastructure.csproj",
+        "projectPath": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\PermissionsAPI.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\sgryn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\obj\\",
+        "outputPath": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sgryn\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -223,11 +240,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Application\\PermissionsAPI.Application.csproj": {
-                "projectPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Application\\PermissionsAPI.Application.csproj"
-              },
-              "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj"
+              "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj": {
+                "projectPath": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj"
               }
             }
           }
@@ -279,14 +293,14 @@
         }
       }
     },
-    "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Tests\\PermissionsAPI.Tests.csproj": {
+    "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Tests\\PermissionsAPI.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Tests\\PermissionsAPI.Tests.csproj",
+        "projectUniqueName": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Tests\\PermissionsAPI.Tests.csproj",
         "projectName": "PermissionsAPI.Tests",
-        "projectPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Tests\\PermissionsAPI.Tests.csproj",
+        "projectPath": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Tests\\PermissionsAPI.Tests.csproj",
         "packagesPath": "C:\\Users\\sgryn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Tests\\obj\\",
+        "outputPath": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sgryn\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -304,14 +318,14 @@
               "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.API\\PermissionsAPI.API.csproj": {
                 "projectPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.API\\PermissionsAPI.API.csproj"
               },
-              "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Application\\PermissionsAPI.Application.csproj": {
-                "projectPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Application\\PermissionsAPI.Application.csproj"
+              "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Application\\PermissionsAPI.Application.csproj": {
+                "projectPath": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Application\\PermissionsAPI.Application.csproj"
               },
-              "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj"
+              "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj": {
+                "projectPath": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Domain\\PermissionsAPI.Domain.csproj"
               },
-              "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\PermissionsAPI.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\PermissionsAPI.Infrastructure.csproj"
+              "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\PermissionsAPI.Infrastructure.csproj": {
+                "projectPath": "c:\\Users\\sgryn\\OneDrive\\Escritorio\\gaston\\net\\challengeN5\\APIPermission\\PermissionsAPI.Infrastructure\\PermissionsAPI.Infrastructure.csproj"
               }
             }
           }

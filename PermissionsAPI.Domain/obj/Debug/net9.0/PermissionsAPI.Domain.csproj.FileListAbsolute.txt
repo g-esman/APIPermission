@@ -1,0 +1,12 @@
+C:\Users\sgryn\OneDrive\Escritorio\gaston\net\challengeN5\APIPermission\PermissionsAPI.Domain\bin\Debug\net9.0\PermissionsAPI.Domain.deps.json
+C:\Users\sgryn\OneDrive\Escritorio\gaston\net\challengeN5\APIPermission\PermissionsAPI.Domain\bin\Debug\net9.0\PermissionsAPI.Domain.dll
+C:\Users\sgryn\OneDrive\Escritorio\gaston\net\challengeN5\APIPermission\PermissionsAPI.Domain\bin\Debug\net9.0\PermissionsAPI.Domain.pdb
+C:\Users\sgryn\OneDrive\Escritorio\gaston\net\challengeN5\APIPermission\PermissionsAPI.Domain\obj\Debug\net9.0\PermissionsAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sgryn\OneDrive\Escritorio\gaston\net\challengeN5\APIPermission\PermissionsAPI.Domain\obj\Debug\net9.0\PermissionsAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\sgryn\OneDrive\Escritorio\gaston\net\challengeN5\APIPermission\PermissionsAPI.Domain\obj\Debug\net9.0\PermissionsAPI.Domain.AssemblyInfo.cs
+C:\Users\sgryn\OneDrive\Escritorio\gaston\net\challengeN5\APIPermission\PermissionsAPI.Domain\obj\Debug\net9.0\PermissionsAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sgryn\OneDrive\Escritorio\gaston\net\challengeN5\APIPermission\PermissionsAPI.Domain\obj\Debug\net9.0\PermissionsAPI.Domain.sourcelink.json
+C:\Users\sgryn\OneDrive\Escritorio\gaston\net\challengeN5\APIPermission\PermissionsAPI.Domain\obj\Debug\net9.0\PermissionsAPI.Domain.dll
+C:\Users\sgryn\OneDrive\Escritorio\gaston\net\challengeN5\APIPermission\PermissionsAPI.Domain\obj\Debug\net9.0\refint\PermissionsAPI.Domain.dll
+C:\Users\sgryn\OneDrive\Escritorio\gaston\net\challengeN5\APIPermission\PermissionsAPI.Domain\obj\Debug\net9.0\PermissionsAPI.Domain.pdb
+C:\Users\sgryn\OneDrive\Escritorio\gaston\net\challengeN5\APIPermission\PermissionsAPI.Domain\obj\Debug\net9.0\ref\PermissionsAPI.Domain.dll

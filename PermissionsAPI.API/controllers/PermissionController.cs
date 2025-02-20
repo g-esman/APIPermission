@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using PermissionsAPI.Domain.Entities;
+using MediatR;
+using PermissionsAPI.Application.Permissions.Commands;
 
 namespace PermissionsAPI.API.Controllers
 {
@@ -7,8 +9,10 @@ namespace PermissionsAPI.API.Controllers
     [Route("api/permissions")]
     public class PermissionsController : ControllerBase
     {
-        public PermissionsController()
+        private readonly IMediator _mediator;
+        public PermissionsController(IMediator mediator)
         {
+            _mediator = mediator;
         }
 
         [HttpGet]
@@ -27,12 +31,10 @@ namespace PermissionsAPI.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> RequestPermission([FromBody] Permission permission)
+        public async Task<IActionResult> RequestPermission([FromBody] RequestPermissionCommand command)
         {
-            if (!ModelState.IsValid) return BadRequest(ModelState);
-
-            var createdPermission = new Permission();
-            return Ok(createdPermission);
+            var id = await _mediator.Send(command);
+            return CreatedAtAction(nameof(RequestPermission), new { id }, id);
         }
 
         [HttpPut("{id}")]
